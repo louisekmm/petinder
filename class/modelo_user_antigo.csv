@@ -1,0 +1,4 @@
+Nome;Email;Dono;Tipo;Senha;Celular;Formulario;Respostas;Pre
+Teste Gerente Regional;ii3@ii.com;;Gerente Regional;123456;;;;
+Teste Coordenador;ii2@ii.com;ii3@ii.com;Coordenador;123456;;;;
+Teste Cadastrador;ii@ii.com;ii2@ii.com;Cadastrador;123456;(19) 99161-3284;SMS EScola;10;1

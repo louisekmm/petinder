@@ -1,0 +1,2 @@
+<?php
+ class Savant3_Error{ public $code=null; public $info=array(); public $level=E_USER_ERROR; public $trace=null; public function __construct($conf=array()){foreach($conf as $key=>$val){$this->$key=$val;}if($conf['trace']===true){$this->trace=debug_backtrace();}} public function __toString(){ob_start();echo get_class($this).': ';print_r(get_object_vars($this));return ob_get_clean();}}?>
